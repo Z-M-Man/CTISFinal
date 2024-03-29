@@ -36,6 +36,54 @@ p.attribution {
     color: black;
 }
 
+div.history {
+    font-size: large;
+    text-decoration: dotted;
+    width: 50em;
+    padding: .5em;
+    border-color: dodgerblue;
+    border-style: groove;
+}
+
+/*Dropdown Menu */
+.dropbtn {
+    background-color: #0e42ba;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #061785;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #77b2c3;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #50cfd8;}
+
+.show {display: block;}
+/*End dropdown menu*/
+
 div.navbar {
     display: flex;
 }
@@ -48,6 +96,19 @@ div.link {
     padding: 0.5em 1em;
     margin: 0.5em;
     justify-content: center;
+}
+
+div.imagecarousel {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.imagec img{
+    justify-content: center;
+    width: 350px;
+    height: fit-content;
+    padding: 0.5em;
+    flex-basis: 50px;
 }
 
 a:link {
@@ -67,7 +128,7 @@ a:active {
 }
 
 img#homeimg {
-    margin-top: 5em;
+    margin-top: 2.5em;
     width: 500px;
 }
 
@@ -86,4 +147,9 @@ img#pastimg {
 img#futureimg {
     width: 500px;
     margin-top: 5em;
-}
+} 
+
+img#rateimg {
+    width: 500px;
+    margin-top: 5em;
+}   
