@@ -134,8 +134,8 @@ div.imagec img{
 }
 
 @media screen and (max-width: 600px) {
-    div.imagec img:not(:first-child) {
-        display: none;
+    div.imagec img {
+        flex-direction: column;
     }
 }
 
