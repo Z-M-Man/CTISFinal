@@ -71,6 +71,12 @@ div.history {
     background-position: 0.3em center;
 }
 
+@media screen and (max-width: 600px) {
+    .dropbtn {
+        padding: 20px;
+    }
+}
+
 .dropbtn:hover, .dropbtn:focus {
     background-color: #061785;
 }
@@ -125,6 +131,12 @@ div.imagec img{
     height: fit-content;
     padding: 0.5em;
     flex-basis: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    div.imagec img:not(:first-child) {
+        display: none;
+    }
 }
 
 a:link {
