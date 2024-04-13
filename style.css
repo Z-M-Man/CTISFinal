@@ -127,7 +127,7 @@ div.imagecarousel {
 
 div.imagec img{
     justify-content: center;
-    width: 350px;
+    width: 19em;
     height: fit-content;
     padding: 0.5em;
     flex-basis: 50px;
