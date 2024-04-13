@@ -134,7 +134,7 @@ div.imagec img{
 }
 
 @media screen and (max-width: 600px) {
-    div.imagec img {
+    div.imagecarousel {
         flex-direction: column;
     }
 }
